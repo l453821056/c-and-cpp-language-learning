@@ -64,7 +64,7 @@
 
 3. 运行命令  
 	```
-	python cpplint.py --filter=whitespace/tab filename.c
+	python cpplint.py --filter=-whitespace/tab filename.c
 	```
 	> 注意`finename.c`是你的源代码的文件名
 	
